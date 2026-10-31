@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Maroua Zoubir – AI Engineer</title>
+<style>
+:root{--bg:#f7f8fa;--fg:#14213d;--muted:#5b6578;--card:#fff;--line:#e2e6ee;--accent:#003366;--tag:#e8eef7;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1522;--fg:#e8ecf4;--muted:#9aa5ba;--card:#16203a;--line:#26324f;--accent:#7fb2ff;--tag:#1d2b4a}}
+:root[data-theme="dark"]{--bg:#0e1522;--fg:#e8ecf4;--muted:#9aa5ba;--card:#16203a;--line:#26324f;--accent:#7fb2ff;--tag:#1d2b4a}
+html{color-scheme:light dark;scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+.w{max-width:960px;margin:0 auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
+nav .w{display:flex;gap:18px;overflow-x:auto;padding:12px 20px;white-space:nowrap}
+nav a{color:var(--muted);text-decoration:none;font-size:14px}
+nav a:hover{color:var(--accent)}
+header{padding:64px 0 40px}
+h1{font-size:clamp(2rem,6vw,3.2rem);margin:0 0 6px;letter-spacing:-.02em}
+.role{color:var(--accent);font-size:1.15rem;font-weight:600;margin:0 0 16px}
+.lead{max-width:640px;color:var(--muted);margin:0 0 24px}
+.btns{display:flex;flex-wrap:wrap;gap:10px}
+.btn{padding:9px 16px;border-radius:8px;border:1px solid var(--accent);color:var(--accent);text-decoration:none;font-size:14px;font-weight:600}
+.btn.p{background:var(--accent);color:var(--bg)}
+section{padding:36px 0}
+h2{font-size:1.5rem;margin:0 0 20px;padding-bottom:8px;border-bottom:2px solid var(--accent);display:inline-block}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(270px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:18px}
+.card h3{margin:0 0 4px;font-size:1.05rem}
+.meta{color:var(--muted);font-size:13.5px;margin:0 0 8px}
+.card p{margin:0;font-size:15px}
+.badge{display:inline-block;background:var(--accent);color:var(--bg);font-size:12px;font-weight:600;padding:2px 9px;border-radius:99px;margin-bottom:8px}
+.tl{border-left:2px solid var(--line);padding-left:18px;margin-left:4px}
+.job{position:relative;margin-bottom:24px}
+.job::before{content:"";position:absolute;left:-25px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--accent)}
+.job h3{margin:0;font-size:1.05rem}
+.job ul{margin:8px 0 0;padding-left:20px;font-size:15px}
+.tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.tags span{background:var(--tag);color:var(--accent);font-size:12.5px;padding:2px 9px;border-radius:6px}
+.sk h3{margin:0 0 8px;font-size:.95rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:14px;text-align:center}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<nav><div class="w"><a href="#about">About</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#skills">Skills</a><a href="#education">Education</a><a href="#contact">Contact</a></div></nav>
+<div class="w">
+<header id="about">
+<h1>Maroua Zoubir</h1>
+<p class="role">AI Engineering Student · Data &amp; AI Work-Study</p>
+<p class="lead">Third-year engineering student at Télécom SudParis, specializing in AI. I’m particularly interested in LLMs, model optimization and agentic systems, with hands-on experience in generative AI and RAG. I’m aiming for a career in AI R&amp;D.</p>
+<div class="btns"><a class="btn p" href="#projects">View projects</a><a class="btn" href="https://github.com/MarouaZoubir">GitHub</a><a class="btn" href="https://linkedin.com/in/marouazoubir">LinkedIn</a></div>
+</header>
+
+<section id="experience"><h2>Experience</h2>
+<div class="tl">
+<div class="job"><h3>AI Engineer / Data Scientist (Work-Study) · Société Générale Assurances</h3><p class="meta">Sept. 2026 – Present · Paris</p><ul><li>Exploring Small Language Models (SLMs) for text classification.</li><li>Experimenting with fine-tuning and prompting to adapt language models.</li></ul></div>
+<div class="job"><h3>AI Engineer Intern, AI for IT · BPCE IT</h3><p class="meta">June – Sept. 2026 · Paris</p><ul><li>Built LLM pipelines to classify and analyze incident tickets: summaries, semantic labeling, recurring-theme detection.</li><li>Enriched an Elasticsearch-based RAG / Knowledge Search base and developed an Incident Similarity system with a reranker.</li><li>Optimized a PaddleOCR solution through model quantization and OpenVINO inference.</li></ul></div>
+<div class="job"><h3>Data Engineering Intern · CNRST</h3><p class="meta">June – July 2025 · Rabat</p><ul><li>Multi-source ELT pipeline with dbt/Snowflake, Dagster orchestration, Great Expectations checks and Metabase dashboards.</li></ul></div>
+<div class="job"><h3>Data Engineering Intern · Netmar</h3><p class="meta">June – July 2024 · Rabat</p><ul><li>IoT REST API and an Elasticsearch / Logstash / Kibana stack for sensor data.</li></ul></div>
+</div></section>
+
+<section id="projects"><h2>Projects</h2>
+<div class="grid">
+<div class="card"><span class="badge">2nd prize / 130 teams</span><h3>Cassiopée – GraphRAG for Compliance</h3><p class="meta">2026</p><p>Automates supplier assessment across 14 compliance controls (ISO 27001, NIS2, SOC2, GDPR) using knowledge graphs in Neo4j and LLM generation.</p><div class="tags"><span>Neo4j</span><span>Mistral</span><span>LangChain</span><span>LangGraph</span></div></div>
+<div class="card"><span class="badge">2nd prize · GITEX Africa 2025</span><h3>AI4SDG11 – Flood Prediction</h3><p class="meta">2025</p><p>Multi-model federated learning (LSTM, GNN, Multi-Head) for flood risk across Africa, with FedAvg keeping each country’s data local.</p><div class="tags"><span>Federated Learning</span><span>LSTM</span><span>GNN</span></div></div>
+<div class="card"><h3>Mamba U-Net for Brain Tumor Segmentation</h3><p class="meta">2025–2026</p><p>3D MRI segmentation with U-Mamba and CBAM attention, trained with nnU-Net v2 and evaluated on BraTS (Dice, Hausdorff).</p><div class="tags"><span>PyTorch</span><span>nnU-Net</span><span>Mamba</span></div></div>
+<div class="card"><h3>Financial Sentiment Analysis</h3><p class="meta">2026</p><p>Fine-tuned CamemBERT to classify financial news as positive, negative or neutral, with an end-to-end pipeline and MLflow tracking.</p><div class="tags"><span>CamemBERT</span><span>PyTorch</span><span>MLflow</span></div></div>
+</div></section>
+
+<section id="skills"><h2>Skills</h2>
+<div class="grid sk">
+<div class="card"><h3>LLM / GenAI</h3><div class="tags"><span>LangChain</span><span>LangGraph</span><span>RAG</span><span>Hugging Face</span><span>Mistral</span><span>spaCy</span></div></div>
+<div class="card"><h3>ML / DL</h3><div class="tags"><span>PyTorch</span><span>scikit-learn</span><span>NumPy</span><span>Pandas</span><span>OpenCV</span></div></div>
+<div class="card"><h3>MLOps &amp; Cloud</h3><div class="tags"><span>MLflow</span><span>Docker</span><span>Kubernetes</span><span>Git</span><span>AWS</span><span>Snowflake</span></div></div>
+<div class="card"><h3>Data &amp; Languages</h3><div class="tags"><span>Elasticsearch</span><span>dbt</span><span>Dagster</span><span>Spark</span><span>Python</span><span>Java</span><span>C</span></div></div>
+</div></section>
+
+<section id="education"><h2>Education &amp; Certifications</h2>
+<div class="grid">
+<div class="card"><h3>Télécom SudParis</h3><p class="meta">2025–2027 · Évry</p><p>Engineering program, MAIA track (Models and Applications of AI).</p></div>
+<div class="card"><h3>ENSIAS</h3><p class="meta">2023–2025 · Rabat</p><p>Data Engineering.</p></div>
+<div class="card"><h3>Certifications</h3><p>AWS Cloud Data Pipeline · AWS Cloud Foundations · Intro to LLMs (365 Data Science)</p></div>
+<div class="card"><h3>Languages</h3><p>French (bilingual) · Arabic (bilingual) · English (C1)</p></div>
+</div></section>
+
+<section id="contact"><h2>Contact</h2>
+<p>Open to opportunities in AI R&amp;D. Let’s talk.</p>
+<div class="btns"><a class="btn p" href="mailto:maroua.zoubir@telecom-sudparis.eu">maroua.zoubir@telecom-sudparis.eu</a><a class="btn" href="https://linkedin.com/in/marouazoubir">LinkedIn</a><a class="btn" href="https://github.com/MarouaZoubir">GitHub</a></div>
+</section>
+</div>
+<footer>© 2026 Maroua Zoubir · Évry, France</footer>
+</body>
+</html>
